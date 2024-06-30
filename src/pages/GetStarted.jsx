@@ -17,7 +17,7 @@ const GetStarted = () => {
           allowfullscreen
         ></iframe>
 
-        <p>
+        <p className="text-lg">
           Please be as detailed as possible when filling out the form as it will
           help me maximize the value I can provide to you.
         </p>

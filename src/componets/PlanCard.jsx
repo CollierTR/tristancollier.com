@@ -27,7 +27,7 @@ const PlanCard = ({
         </div>
         <p>{description}</p>
         <p className="font-bold">
-          <span className="text-4xl">${price} </span>
+          <span className="text-4xl">${price.toLocaleString("en-US")} </span>
           <span>/{planType}</span>
         </p>
         <div className="flex justify-center">

@@ -5,14 +5,14 @@ import PropTypes from "prop-types";
 const servicePlansArr = [
   {
     name: "Basic",
-    monthlyPrice: 57,
-    yearlyPrice: 627,
+    monthlyPrice: 67,
+    yearlyPrice: 737,
     description: "A basic covering the essentials",
     benifits: [
       "Hosting",
       "Security",
-      "Yearly Strategy Consultation",
       "1hr/mo of free website updates",
+      "Yearly Strategy Consultation",
     ],
     isPopular: false,
     key: 1,
@@ -20,8 +20,8 @@ const servicePlansArr = [
   },
   {
     name: "Premuim",
-    monthlyPrice: 87,
-    yearlyPrice: 957,
+    monthlyPrice: 97,
+    yearlyPrice: 1067,
     description: "A premuim plan to drive growth",
     benifits: [
       "Basic Website Analyitics",
@@ -36,8 +36,8 @@ const servicePlansArr = [
   },
   {
     name: "Advanced",
-    monthlyPrice: 127,
-    yearlyPrice: 1397,
+    monthlyPrice: 147,
+    yearlyPrice: 1617,
     description: "A plan that will crush your competition!",
     benifits: [
       "Advanced Website Annalytics",
