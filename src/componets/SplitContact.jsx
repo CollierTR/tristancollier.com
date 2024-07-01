@@ -31,11 +31,10 @@ const SplitContact = () => {
         <form
           className="flex flex-col gap-6 place-items-center"
           name="Contact Form"
-          data-netlify="true"
           method="post"
-          onSubmit="submit"
-          action="/"
+          action="/contact"
         >
+          <input type="hidden" name="form-name" value="Contact Form" />
           <span className="flex gap-2 flex-col w-3/4">
             <input type="hidden" name="form-name" value="Contact Form" />
             <label htmlFor="firstName" className="text-xl">
@@ -81,7 +80,6 @@ const SplitContact = () => {
               How can we help you?
             </label>
             <textarea
-              type="textarea"
               required
               id="text"
               name="text"

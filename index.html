@@ -7,6 +7,14 @@
     <title>Tristan Collier</title>
   </head>
   <body>
+    <form name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="email" name="email" />
+      <textarea name="text" id="text"></textarea>
+    </form>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
