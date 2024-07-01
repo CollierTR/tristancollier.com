@@ -34,6 +34,7 @@ const SplitContact = () => {
           data-netlify="true"
           method="post"
           onSubmit="submit"
+          action="/"
         >
           <span className="flex gap-2 flex-col w-3/4">
             <input type="hidden" name="form-name" value="Contact Form" />
