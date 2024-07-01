@@ -32,7 +32,8 @@ const SplitContact = () => {
           className="flex flex-col gap-6 place-items-center"
           name="Contact"
           netlify
-          method="POST"
+          method="post"
+          action=""
         >
           <span className="flex gap-2 flex-col w-3/4">
             <label htmlFor="firstName" className="text-xl">
