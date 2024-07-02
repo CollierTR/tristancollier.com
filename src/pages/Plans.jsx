@@ -6,7 +6,7 @@ const Plans = () => {
   return (
     <>
       <Nav></Nav>
-      <main className="flex justify-center">
+      <main className="flex justify-center place-items-center">
         <Outlet></Outlet>
       </main>
       <Footer></Footer>

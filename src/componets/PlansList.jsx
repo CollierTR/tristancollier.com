@@ -2,12 +2,13 @@ import PlanCard from "./PlanCard";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 
+//this is the arr of objs that control the plan cards
 const servicePlansArr = [
   {
     name: "Basic",
     monthlyPrice: 67,
     yearlyPrice: 737,
-    description: "A basic covering the essentials",
+    description: "A basic plan covering the essentials",
     benifits: [
       "Hosting",
       "Security",
@@ -19,13 +20,13 @@ const servicePlansArr = [
     listHeader: "This Plan Includes:",
   },
   {
-    name: "Premuim",
+    name: "Premium",
     monthlyPrice: 97,
     yearlyPrice: 1067,
-    description: "A premuim plan to drive growth",
+    description: "A premium plan to drive growth",
     benifits: [
       "Basic Website Analyitics",
-      "Google my Business Optimization",
+      '"Google my Business" Optimization',
       "2hrs/mo of free website updates",
       "Bi-annual Strategy Meeting",
       "10% discount on all other services!",
@@ -40,8 +41,8 @@ const servicePlansArr = [
     yearlyPrice: 1617,
     description: "A plan that will crush your competition!",
     benifits: [
-      "Advanced Website Annalytics",
-      "We provide 'placehoder copy",
+      "Advanced Website Analytics",
+      "We provide placeholder copy",
       "SEO Boost",
       "IT Support",
       "Reputation Management",
@@ -58,13 +59,13 @@ const servicePlansArr = [
 
 const PlansList = ({ monthly = false, yearly = false }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-16 my-20 w-10/12">
-      <h1 className="text-6xl whitespace-nowrap relative z-10 text-light-primary my-shadow rob">
+    <div className="flex flex-col justify-center items-center gap-6 sm:gap-16 my-20 w-10/12">
+      <h1 className="text-3xl sm:text-6xl text-pretty relative z-10 text-light-primary my-shadow rob">
         Business Growth Plans
       </h1>
-      <p className="text-2xl">
-        Choose an affordable plan that’s packed with the best features to help
-        you grow your bussiness.
+      <p className="text-lg sm:text-2xl text-balenced text-center">
+        Choose an affordable plan that&apos;s packed with the best features to
+        help you grow your bussiness.
       </p>
       {/* switch button */}
       <div className="flex mt-10 gap-4 border-2 px-1 border-dark-primary rounded-full p-1 place-items-center">
@@ -77,7 +78,7 @@ const PlansList = ({ monthly = false, yearly = false }) => {
           }
         >
           Monthly
-        </NavLink>{" "}
+        </NavLink>
         <NavLink
           to={"/plans/yearly"}
           className={({ isActive }) =>
@@ -93,7 +94,7 @@ const PlansList = ({ monthly = false, yearly = false }) => {
       {/* This could be it's own componet... */}
 
       {monthly && (
-        <div className="flex gap-10 justify-stretch w-full">
+        <div className="flex gap-10 justify-stretch  lg:max-w-none lg:w-full lg:flex-row flex-col place-items-stretch lg:place-items-stretch">
           {servicePlansArr.map(function (plan) {
             return (
               <PlanCard
@@ -112,7 +113,7 @@ const PlansList = ({ monthly = false, yearly = false }) => {
       )}
 
       {yearly && (
-        <div className="flex gap-10 justify-strech w-full">
+        <div className="flex gap-10 justify-stretch  lg:max-w-none lg:w-full lg:flex-row flex-col place-items-stretch lg:place-items-stretch">
           {servicePlansArr.map(function (plan) {
             return (
               <PlanCard

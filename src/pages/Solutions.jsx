@@ -16,7 +16,7 @@ function Solutions() {
         buttonText="Get Your Free Quote"
         imgWidth="500px"
         img={customWebsitePic}
-        text="I use a data-driven approach to building websites. Everyone wants a website that looks good, but what you need is a website that brings and results. You need a website that converts. You need a website that multiplies your profit margin. I build websites with layouts and features that have proven version rates. I also into what make my clients websites more than a website I integrate tools for my clients that help drive their business to the next level. "
+        text="Set yourself apart from the competition with a modern website. Our websites are fast, mobile responsive, and feature designs tailored to our client's needs."
       ></SplitSection>
       <SplitSection
         img={lineChart}
@@ -26,7 +26,7 @@ function Solutions() {
         linkOrHref="/plans/monthly"
         buttonText="Compare Plans"
         flip={true}
-        text="Having started my career in sales and getting to work my way up to a corporate position, I have the ability to see the big picture for my clients. Few people just need a website. If you are looking to increase sales, funnel leads, and push your business into the spotlight, my services may be what you need to take your business to the next level."
+        text="Boost the potential of your business with our monthly service plans. Our plans go above and beyond traditional web services giving you the edge you need to take your business to the next level."
       ></SplitSection>
       {/* <SplitSection
         title="Custom Tooling"
@@ -39,7 +39,7 @@ function Solutions() {
         linkOrHref="/get-started"
         buttonText="Get Started Today!"
         imgWidth="500"
-        text="Having started my career in sales and getting to work my way up to a corporate position, I have the ability to see the big picture for my clients. Few people just need a website. If you are looking to increase sales, funnel leads, and push your business into the spotlight, my services may be what you need to take your business to the next level."
+        text="Shoot to the top of Google search results with our reputation management software. Our reputation management software is unique from others in that it integrates directly into your website. This makes it easy to use and and customer friendly."
         img={reputationManagementPic}
       ></SplitSection>
       {/* <SplitSection
