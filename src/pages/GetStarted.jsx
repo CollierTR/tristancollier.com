@@ -5,7 +5,7 @@ const GetStarted = () => {
   return (
     <>
       <Nav></Nav>
-      <main className="flex flex-col justify-start place-items-center gap-6 md:gap-12 pt-24 w-10/12 ">
+      <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
         <iframe
           className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=wBF509A8D9tjjy9E"
