@@ -3,13 +3,13 @@ import chart from "../assets/Take_your_business_to_the_next_level___1_-removebg-
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center lg:gap-x-20 my-20 flex-col lg:flex-row">
+    <div className="flex justify-center items-center lg:gap-x-20 my-20 flex-col lg:flex-row gap-10">
       <div className=" w-10/12 lg:w-5/12 flex flex-col md:gap-6 lg:gap-12 gap-4 place-items-center md:place-items-start">
-        <h1 className="md:text-left text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:whitespace-nowrap text-pretty relative z-10 text-light-primary my-shadow rob">
+        <h1 className="md:text-left text-center text-5xl sm:text-5xl md:text-5xl lg:text-6xl lg:whitespace-nowrap text-pretty relative z-10 text-light-primary my-shadow rob">
           Take your business to the next level!
         </h1>
 
-        <p className="sm:text-xl lg:text-2xl md:text-start text-center">
+        <p className="text-xl sm:text-xl lg:text-2xl md:text-start text-center">
           Are you wanting to take the next step with your business? Do you feel
           like you&apos;re missing a key element that would take your business
           to the next level? Do you have a website that is focused on converting
@@ -33,11 +33,9 @@ const Hero = () => {
           ></Button> */}
         </div>
       </div>
-      <img
-        src={chart}
-        alt="chart img"
-        className="p-1 relative hidden lg:block"
-      />
+      <div className="grid place-items-center place-content-center size-3/5 ">
+        <img src={chart} alt="chart img" className="p-1 relative  lg:block" />
+      </div>
     </div>
   );
 };

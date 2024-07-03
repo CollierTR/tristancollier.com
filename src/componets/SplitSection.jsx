@@ -17,8 +17,8 @@ const SplitSection = ({
     <div
       className={
         flip
-          ? "flex items-center justify-center bg-red-200 w-5/11 my-16 md:my-32 w-11/12 mx-auto lg:flex-row-reverse gap-5 flex-col"
-          : "flex items-center justify-center bg-red-200 w-5/11 my-16 md:my-32 w-11/12 mx-auto gap-5 flex-col lg:flex-row"
+          ? "flex items-center justify-center bg-red-200 w-5/11 my-28 md:my-32 w-11/12 mx-auto lg:flex-row-reverse gap-5 flex-col"
+          : "flex items-center justify-center bg-red-200 w-5/11 my-28 md:my-32 w-11/12 mx-auto gap-5 flex-col lg:flex-row"
       }
       // "flex items-center justify-center gap-x-20 bg-red-200 w-5/1i my-40 w-11/12 mx-auto"
     >
@@ -52,7 +52,7 @@ const SplitSection = ({
         )}
       </div>
 
-      <div className="lg:grid place-content-center w-5/12 h-[500px] hidden ">
+      <div className="lg:grid place-content-center lg:w-5/12 lg:h-[500px]  w-3/5 mt-10 ">
         <img src={img} width={imgWidth} />
       </div>
     </div>
