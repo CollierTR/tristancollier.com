@@ -16,14 +16,14 @@ const GetStarted = () => {
           allowFullScreen
         ></iframe>
 
-        <p className="text-center md:text-lg">
+        <p className="text-center text-xl md:text-lg">
           Please be as detailed as possible when filling out the form as it will
           help me maximize the value I can provide to you.
         </p>
 
         <Button
           text="Go to form"
-          size="text-lg md:text-2xl"
+          size="text-xl md:text-2xl"
           padding="py-2 md:py-3 px-6 md:px-10"
           color="bg-dark-primary"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdgDdxvvZJ07ips2sfpptqj6zNxMvW3uqBVqKnFkyxkEuAnyg/viewform"

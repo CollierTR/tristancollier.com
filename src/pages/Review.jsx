@@ -13,16 +13,16 @@ const Review = () => {
         allowFullScreen
       ></iframe>
 
-      <h1 className="robo my-shadow text-3xl md:text-6xl text-light-primary">
+      <h1 className="robo my-shadow text-4xl md:text-6xl text-light-primary">
         Thank You!
       </h1>
-      <p className=" md:text-2xl w-3/5 text-center">
+      <p className=" md:text-2xl text-xl w-3/5 text-center">
         If you have any questions, or there is anything I can do for you, please
         don&apos;t hesitate to reach out to me.
       </p>
       <Button
         text="Leave us a review!"
-        size="text-lg md:text-2xl"
+        size="text-xl md:text-2xl"
         padding=" py-2 md:py-3 px-6 md:px-10 mb-20"
         color="bg-dark-primary"
       ></Button>

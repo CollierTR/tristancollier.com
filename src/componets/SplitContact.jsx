@@ -7,7 +7,7 @@ const SplitContact = () => {
         <h1 className="text-light-primary robo my-shadow lg:text-6xl text-4xl">
           Let&apos;s Get in Touch!
         </h1>
-        <p className="lg:text-2xl text-lg">
+        <p className="lg:text-2xl text-xl">
           Want to get in touch? <br /> <br /> I&apos;d be happy to! Please feel
           free to reach out to me using the contacts form for one of the links
           below.
@@ -15,13 +15,13 @@ const SplitContact = () => {
         <div className="flex gap-6">
           <Button
             text="Call"
-            size="lg:text-2xl text-lg"
+            size="lg:text-2xl text-xl"
             padding="lg:py-3 lg:px-16 py-2 px-6"
             href="tel:5402206532"
           ></Button>
           <Button
             text="Email"
-            size="lg:text-2xl text-lg"
+            size="lg:text-2xl text-xl"
             padding="lg:py-3 lg:px-16 py-2 px-6"
             href="mailto:tristancollier777@gmail.com"
           ></Button>

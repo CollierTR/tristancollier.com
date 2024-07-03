@@ -22,14 +22,12 @@ const SplitSection = ({
       }
       // "flex items-center justify-center gap-x-20 bg-red-200 w-5/1i my-40 w-11/12 mx-auto"
     >
-      <div className="w-11/12 lg:w-6/12 flex flex-col gap-4 md:gap-6 lg:gap-12 place-items-center md:place-items-start">
-        <h2 className="w-11/12 md:text-5xl text-3xl lg:text-6xl robo my-shadow lg:whitespace-nowrap text-pretty whitespace-normal lg:relative z-10 text-light-primary text-center md:text-start">
+      <div className="w-11/12 lg:w-6/12 flex flex-col gap-6 md:gap-6 lg:gap-12 place-items-center md:place-items-start">
+        <h2 className="w-11/12 md:text-5xl text-4xl lg:text-6xl robo my-shadow lg:whitespace-nowrap text-pretty whitespace-normal lg:relative z-10 text-light-primary text-center md:text-start">
           {title}
         </h2>
 
-        <p className="text-base md:text-2xl  text-center md:text-start">
-          {text}
-        </p>
+        <p className="text-lg md:text-2xl  text-center md:text-start">{text}</p>
 
         {button && (
           <Button

@@ -60,10 +60,10 @@ const servicePlansArr = [
 const PlansList = ({ monthly = false, yearly = false }) => {
   return (
     <div className="flex flex-col justify-center items-center gap-6 sm:gap-16 my-20 w-10/12">
-      <h1 className="text-3xl sm:text-6xl text-pretty relative z-10 text-light-primary my-shadow rob">
+      <h1 className="text-4xl sm:text-6xl text-pretty relative z-10 text-light-primary my-shadow rob">
         Business Growth Plans
       </h1>
-      <p className="text-lg sm:text-2xl text-balenced text-center">
+      <p className="text-xl sm:text-2xl text-balenced text-center">
         Choose an affordable plan that&apos;s packed with the best features to
         help you grow your bussiness.
       </p>
