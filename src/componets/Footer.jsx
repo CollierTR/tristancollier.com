@@ -20,7 +20,7 @@ const Footer = () => {
           ></LinkButton>
         </div>
       </div>
-      <div className="flex justify-between place-items-start md:place-items-center w-10/12 mx-auto mt-12 mb-3 flex-col-reverse md:flex-row gap-3">
+      <div className="flex justify-between place-items-center w-10/12 mx-auto mt-12 mb-3 flex-row gap-3">
         <p className="text-sm md:text-lg">© 2024 Tristan Collier</p>
         <div className="flex gap-3 w-1/2 sm:w-2/6 md:w-1/6 xl:size-1/12 justify-evenly place-items-center">
           <a href="mailto:tristancollier777@gmail.com" target="_blank">

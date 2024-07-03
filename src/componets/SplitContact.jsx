@@ -4,10 +4,10 @@ const SplitContact = () => {
   return (
     <div className="w-11/12 flex justify-center mb-40 mt-32 gap-x-20 mx-auto lg:flex-row flex-col place-items-center lg:place-items-start gap-40">
       <div className="flex-col flex gap-4 lg:gap-10 lg:w-5/12 w-10/12">
-        <h1 className="text-light-primary robo my-shadow lg:text-6xl text-4xl">
+        <h1 className="text-light-primary robo my-shadow lg:text-6xl text-5xl">
           Let&apos;s Get in Touch!
         </h1>
-        <p className="lg:text-2xl text-xl">
+        <p className="lg:text-2xl text-2xl">
           Want to get in touch? <br /> <br /> I&apos;d be happy to! Please feel
           free to reach out to me using the contacts form for one of the links
           below.
@@ -15,14 +15,14 @@ const SplitContact = () => {
         <div className="flex gap-6">
           <Button
             text="Call"
-            size="lg:text-2xl text-xl"
-            padding="lg:py-3 lg:px-16 py-2 px-6"
+            size="lg:text-2xl text-2xl"
+            padding="lg:py-3 lg:px-16 py-3 px-6"
             href="tel:5402206532"
           ></Button>
           <Button
             text="Email"
-            size="lg:text-2xl text-xl"
-            padding="lg:py-3 lg:px-16 py-2 px-6"
+            size="lg:text-2xl text-2xl"
+            padding="lg:py-3 lg:px-16 py-3 px-6"
             href="mailto:tristancollier777@gmail.com"
           ></Button>
         </div>

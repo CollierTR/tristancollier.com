@@ -25,7 +25,7 @@ const Nav = () => {
         >
           {/* close btn  */}
           <div className="absolute right-4">
-            <FontAwesomeIcon icon={faXmark} className="text-light text-2xl" />
+            <FontAwesomeIcon icon={faXmark} className="text-light text-3xl" />
           </div>
 
           <ul className="  text-center text-2xl pt-4">
@@ -70,7 +70,7 @@ const Nav = () => {
           <h1 className="block text-xl hover:cursor-pointer">{"< TC />"}</h1>
         </Link>
         <div onClick={handleMobileNavOpen}>
-          <FontAwesomeIcon icon={faBars} className="text-light text-2xl" />
+          <FontAwesomeIcon icon={faBars} className="text-light text-3xl" />
         </div>
       </div>
 
