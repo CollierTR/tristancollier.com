@@ -11,7 +11,7 @@ const GetStarted = () => {
             className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
             // video params =  ?autoplay=1&rel=0
             // https://www.youtube.com/embed/{video id}?autoplay=1&rel=1
-            src="https://youtu.be/bqktEwkQcp4?autoplay=1&rel=1"
+            src="https://www.youtube.com/embed/bqktEwkQcp4?autoplay=1&rel=1"
             title="Get Started"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

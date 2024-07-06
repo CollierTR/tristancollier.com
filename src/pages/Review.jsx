@@ -10,7 +10,7 @@ const Review = () => {
 
   const video = videoId
     ? `https://youtube.com/embed/${videoId}?autoplay=1&rel=1`
-    : "https://youtu.be/DTl3L0BaqdU?autoplay=1&rel=1";
+    : "https://www.youtube.com/embed/DTl3L0BaqdU?autoplay=1&rel=1";
 
   return (
     <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
