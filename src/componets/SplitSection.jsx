@@ -17,8 +17,8 @@ const SplitSection = ({
     <div
       className={
         flip
-          ? "flex items-center justify-center bg-red-200 w-5/11 my-28 md:my-32 w-11/12 mx-auto lg:flex-row-reverse gap-5 flex-col"
-          : "flex items-center justify-center bg-red-200 w-5/11 my-28 md:my-32 w-11/12 mx-auto gap-5 flex-col lg:flex-row"
+          ? "flex items-center justify-center w-5/11 my-28 md:my-32 w-11/12 mx-auto lg:flex-row-reverse gap-5 flex-col"
+          : "flex items-center justify-center w-5/11 my-28 md:my-32 w-11/12 mx-auto gap-5 flex-col lg:flex-row"
       }
       // "flex items-center justify-center gap-x-20 bg-red-200 w-5/1i my-40 w-11/12 mx-auto"
     >

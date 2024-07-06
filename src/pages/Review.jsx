@@ -1,11 +1,23 @@
+//params are " ? name= & videoId="
+
 import Button from "../componets/Button";
 
 const Review = () => {
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("name");
+
+  const videoId = params.get("videoId");
+
+  const video = videoId
+    ? `https://youtube.com/embed/${videoId}?autoplay=1&rel=1`
+    : "https://www.youtube.com/embed/6EucOYAj2Bo?autoplay=1&rel=1";
+
   return (
     <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
       <iframe
         className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
-        src="https://www.youtube.com/embed/6EucOYAj2Bo"
+        // src="https://www.youtube.com/embed/6EucOYAj2Bo"
+        src={video}
         title="Thank You!"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -14,7 +26,8 @@ const Review = () => {
       ></iframe>
 
       <h1 className="robo my-shadow text-4xl md:text-6xl text-light-primary">
-        Thank You!
+        {/* Optional name URL param */}
+        Thank You{name ? ` ${name}` : null}!
       </h1>
       <p className=" md:text-2xl text-xl w-3/5 text-center">
         If you have any questions, or there is anything I can do for you, please

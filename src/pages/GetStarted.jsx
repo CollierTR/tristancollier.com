@@ -8,8 +8,10 @@ const GetStarted = () => {
       <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
         <iframe
           className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
-          src="https://www.youtube.com/embed/nHdxzVSEqNM"
-          title="YouTube video player"
+          // video params =  ?autoplay=1&rel=0
+          // https://www.youtube.com/embed/{video id}?autoplay=1&rel=1
+          src="https://www.youtube.com/embed/nHdxzVSEqNM?autoplay=1&rel=1"
+          title="Get Started"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"

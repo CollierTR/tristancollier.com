@@ -3,7 +3,7 @@ import chart from "../assets/Take_your_business_to_the_next_level___1_-removebg-
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center lg:gap-x-20 my-20 flex-col lg:flex-row gap-16">
+    <div className="flex justify-center items-center lg:gap-x-20 my-20 flex-col md:flex-row gap-16  mx-auto">
       <div className=" w-10/12 lg:w-5/12 flex flex-col md:gap-6 lg:gap-12 gap-6 place-items-center md:place-items-start">
         <h1 className="md:text-left text-center text-5xl sm:text-5xl md:text-5xl lg:text-6xl lg:whitespace-nowrap text-pretty relative z-10 text-light-primary my-shadow rob">
           Take your business to the next level!
@@ -33,7 +33,7 @@ const Hero = () => {
           ></Button> */}
         </div>
       </div>
-      <div className="grid place-items-center place-content-center size-3/5 ">
+      <div className="grid place-items-center place-content-center w-3/5 lg:w-auto ">
         <img src={chart} alt="chart img" className="p-1 relative  lg:block" />
       </div>
     </div>
