@@ -38,6 +38,7 @@ const Review = () => {
         size="text-xl md:text-2xl"
         padding=" py-2 md:py-3 px-6 md:px-10 mb-20"
         color="bg-dark-primary"
+        href="https://g.page/r/CbKwlapzWGr-EBI/review"
       ></Button>
     </main>
   );
