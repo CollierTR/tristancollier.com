@@ -6,7 +6,7 @@ const GetStarted = () => {
     <>
       <Nav></Nav>
       <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
-        <div className="grid place-content-center py-20">
+        <div className="grid place-content-center items-center place-items-center py-20">
           <iframe
             className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
             // video params =  ?autoplay=1&rel=0
