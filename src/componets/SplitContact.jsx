@@ -8,9 +8,9 @@ const SplitContact = () => {
           Let&apos;s Get in Touch!
         </h1>
         <p className="lg:text-2xl text-2xl">
-          Want to get in touch? <br /> <br /> I&apos;d be happy to! Please feel
-          free to reach out to me using the contact form or one of the links
-          below.
+          Have a question?
+          <br /> I&apos;d be happy to help! Please feel free to reach out to me
+          using the contact form or one of the links below.
         </p>
         <div className="flex gap-6">
           <Button

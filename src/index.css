@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: #16e5ecfa;
+}
+
 @layer base {
   body {
     @apply bg-dark;

@@ -10,13 +10,12 @@ const Review = () => {
 
   const video = videoId
     ? `https://youtube.com/embed/${videoId}?autoplay=1&rel=1`
-    : "https://www.youtube.com/embed/6EucOYAj2Bo?autoplay=1&rel=1";
+    : "https://youtu.be/DTl3L0BaqdU?autoplay=1&rel=1";
 
   return (
     <main className="flex flex-col justify-start place-items-center gap-5 md:gap-12 pt-24">
       <iframe
         className="md:w-[560px] w-9/12 sm:w-3/4 h-[200px] sm:h-[300px] md:h-[300px]"
-        // src="https://www.youtube.com/embed/6EucOYAj2Bo"
         src={video}
         title="Thank You!"
         frameBorder="0"

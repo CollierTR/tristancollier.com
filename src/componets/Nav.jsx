@@ -20,15 +20,15 @@ const Nav = () => {
     <div>
       {mobileNav && (
         <div
-          className="absolute size-full bg-dark z-50 p-4"
+          className="absolute size-full bg-dark z-50 p-4 grid place-content-center"
           onClick={handleMobileNavClose}
         >
           {/* close btn  */}
-          <div className="absolute right-4">
+          <div className="absolute right-4 top-4">
             <FontAwesomeIcon icon={faXmark} className="text-light text-3xl" />
           </div>
 
-          <ul className="  text-center text-2xl pt-4">
+          <ul className=" flex flex-col text-center text-4xl gap-4 justify-evenly place-items-center">
             <li className="mb-4">
               <NavLink
                 to={"/"}
