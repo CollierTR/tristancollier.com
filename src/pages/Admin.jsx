@@ -74,8 +74,11 @@ const Admin = () => {
 
       {createdLink && (
         <div className="flex place-items-center flex-col gap-6  py-20">
-          <a href={createdLink} className="underline text-wrap text-center">
-            <p className="text-lg">{createdLink}</p>
+          <a
+            href={createdLink}
+            className="underline text-wrap text-center link"
+          >
+            <p className="text-lg link">{createdLink}</p>
           </a>
           <p className="w-11/12 md:text-5xl text-4xl lg:text-6xl robo my-shadow text-pretty whitespace-normal text-light-primary text-center">
             Preview
